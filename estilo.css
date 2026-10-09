@@ -5,6 +5,10 @@
 * {
     margin: 0px;
     padding: 0px;
+     overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 body {
@@ -162,9 +166,4 @@ footer {
 
 
 
-html, body {
-    overflow-x: hidden;         /* Evita rolagem para os lados se não precisar */
-    overflow-y: auto;           /* Garante que a rolagem vertical exista */
-    scrollbar-width: none;      /* Firefox */
-    -ms-overflow-style: none;   /* IE/Edge antigo */
-}
+
