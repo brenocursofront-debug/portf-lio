@@ -162,7 +162,9 @@ footer {
 
 
 
-html::-webkit-scrollbar, 
-body::-webkit-scrollbar {
-    display: none;               /* Para Chrome, Safari e Edge moderno */
+html, body {
+    overflow-x: hidden;         /* Evita rolagem para os lados se não precisar */
+    overflow-y: auto;           /* Garante que a rolagem vertical exista */
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE/Edge antigo */
 }
