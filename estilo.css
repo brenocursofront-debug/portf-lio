@@ -21,13 +21,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10% 8%;
+    padding: 10%;
     gap: 82px;
     
 }
 
 .apresentacao-conteudo {
-    width: 10%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
