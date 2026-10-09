@@ -164,5 +164,5 @@ footer {
 
 html::-webkit-scrollbar, 
 body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari e Opera */
+    display: none;               /* Para Chrome, Safari e Edge moderno */
 }
